@@ -1,3 +1,134 @@
 /* body {
     background-color: grey;
 } */
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+footer, .main {
+    background-color: #1F2937
+}
+.main {
+    font: 48px extra-bold;
+    color: #F9FAF8;
+}
+#secondaryText, ul {
+    font-size: 18px;
+    color: #E5E7EB;
+   
+}
+#mainButton, .actionCall {
+    background-color: #3882F6;
+    color: white;
+}
+.info_header {
+    font: 36px extra-bold;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font: 30px italic;
+    color: #1F2937;
+
+}
+figcaption {
+    font: 18px italic;
+    margin-right: 30px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 90px;
+}
+li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+.mainContent img {
+    width: 400px;
+    margin: 40px;
+
+}
+#awesome {
+    margin: 30px;
+}
+
+.mainContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    padding: 0px 40px;
+    
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+#pictureGallery {
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.actionWrap {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+footer{
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    border-radius: 15%;
+    padding: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+  
+}
+.actionWrap button {
+    margin: 0px 20px;
+}
+.actionCall {
+    border-radius: 15px;
+    padding: 20px 50px;
+    width: 800px;
+    padding-left: 180px;
+}
+b {
+    font-size: 24px;
+}
